@@ -8,7 +8,7 @@ SKN 16기 3차 단위프로젝트
  - https://www.jiisonline.org/index.php?mnu=archive
 
 ## 시스템 아키텍쳐
-![아키텍처](./img/image (1).webp)
+![image1](./img/image (1).webp)
 
 ## 개발된 소프트웨어 : RAG기반 LLM과 벡터 데이터베이스 연동 구현 및 화면
  - 사진 업로드
