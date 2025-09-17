@@ -1,14 +1,38 @@
 # SKN16-3st-4Team
 SKN 16기 3차 단위프로젝트
 
-## 산출물
- - 
+## 개요
+- 프로젝트명: 논문 분석 챗봇
+- 배경: 논문 탐색과 저장 및 관리, 정보 활용에 많은 시간 소요
+- 목표: 논문 데이터를 활용해 RAG기반 + 웹 검색 질의응답 서비스 구축
+- 범위: 한국지능정보연구원 학술논문 약 300건(2020~2025)
+- 주요 기능:
+   - 논문 업로드 (PDF)
+   - 메타정보 추출 및 섹터 요약
+   - 논문 분석
+   - 추출 DB 업데이트 및 관리
+   - 논문 기반 AI 챗봇 기능
+
 
 ## 수집된 데이터 및 데이터 전처리 문서
  - https://www.jiisonline.org/index.php?mnu=archive
 
 ## 시스템 아키텍쳐
 ![archit](./img/archit.jpg)
+- Frontend/UI: Gradio
+- PDF 처리기: PDFplumber, PyMuPDF, OCR
+- 전처리: okt, komoran, keybert
+- 메타데이터 추출기: gpt (APA 인용 생성 포함)
+- RAG embedder: 'jhgan/ko-sroberta-multitask'
+- RAG reranker: 'cross-encoder/ms-marco-MiniLM-L-12-v2'
+- 벡터 DB: ChromaDB 기반 RAG 검색
+- 웹 검색: Tavily
+- LLM 연동: ‘gpt-4’ + 평가기(CustomLLMEvaluator)
+- 로깅/모니터링: LangSmith
+
+### 임베딩 모델 비교 (jhgan/ko-sroberta-multitask, BAAI/bge-m3, intfloat/multilingual-e5-base, sentence-transformers/paraphrase-multilingual-MiniLM-L12-v2)
+![embed eval](./img/embed eval.jpg)
+![embed vs](./img/embed vs.jpg)
 
 ## 개발된 소프트웨어 : RAG기반 LLM과 벡터 데이터베이스 연동 구현 및 화면
  - 사진 업로드
