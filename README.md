@@ -5,7 +5,6 @@ SKN 16기 3차 단위프로젝트
 - 프로젝트명: 논문 분석 챗봇
 - 배경: 논문 탐색과 저장 및 관리, 정보 활용에 많은 시간 소요
 - 목표: 논문 데이터를 활용해 RAG기반 + 웹 검색 질의응답 서비스 구축
-- 범위: 한국지능정보연구원 학술논문 약 300건(2020~2025) (https://www.jiisonline.org/index.php?mnu=archive)
 - 주요 기능:
    - 논문 업로드 (PDF)
    - 메타정보 추출 및 섹터 요약
@@ -16,8 +15,10 @@ SKN 16기 3차 단위프로젝트
 ![afaf](./img/afaf.png)
 
 ## 수집된 데이터 및 데이터 전처리 문서
- - https://www.jiisonline.org/index.php?mnu=archive
+- 한국지능정보연구원 학술논문 약 300건(2020~2025) (https://www.jiisonline.org/index.php?mnu=archive)
+- 논문 예시
 
+ 
 ## 시스템 아키텍쳐
 ![archit](./img/archit.jpg)
 - Frontend/UI: Gradio
