@@ -35,7 +35,29 @@ SKN 16기 3차 단위프로젝트
 ![embed vs](./img/embed vs.jpg)
 
 ## 개발된 소프트웨어 : RAG기반 LLM과 벡터 데이터베이스 연동 구현 및 화면
- - 사진 업로드
+### 1. 로그인
+![loginpage](./img/loginpage.png)
+
+### 2. 논문 업로드(단일)
+![supload1](./img/supload1.png)
+![supload2](./img/supload2.png)
+
+### 3. 논문 업로드(다중)
+![mupload1](./img/mupload1.png)
+![mupload2](./img/mupload2.png)
+![mupload3](./img/mupload3.png)
+
+### 4. 임베딩 모델 선정
+![embedmodelchoose](./img/embedmodelchoose.png)
+
+### 5. 논문 DB 관리
+![dbmanage1](./img/dbmanage1.png)
+![dbmanage2](./img/dbmanage2.png)
+
+### 6. 논문 AI 챗봇
+![chatbot1](./img/chatbot1.png)
+![chatbot2](./img/chatbot2.png)
+
 
 ## 테스트 계획 및 검증보고서
 ### 테스트 계획
