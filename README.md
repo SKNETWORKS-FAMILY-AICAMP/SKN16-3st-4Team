@@ -30,7 +30,8 @@ SKN 16기 3차 단위프로젝트
 - LLM 연동: ‘gpt-4’ + 평가기(CustomLLMEvaluator)
 - 로깅/모니터링: LangSmith
 
-### 임베딩 모델 비교 (jhgan/ko-sroberta-multitask, BAAI/bge-m3, intfloat/multilingual-e5-base, sentence-transformers/paraphrase-multilingual-MiniLM-L12-v2)
+### 임베딩 모델 비교
+- 비교 모델 : jhgan/ko-sroberta-multitask, BAAI/bge-m3, intfloat/multilingual-e5-base, sentence-transformers/paraphrase-multilingual-MiniLM-L12-v2
 ![embed eval](./img/embed eval.jpg)
 ![embed vs](./img/embed vs.jpg)
 
