@@ -26,7 +26,8 @@ SKN 16기 3차 단위프로젝트
 - 전처리: okt, komoran, keybert
  
 ## 시스템 아키텍쳐
-![archit](./img/archit.jpg)
+![아키텍쳐](https://github.com/user-attachments/assets/ec59aa70-e2d3-43c1-ba47-4d9422852d81)
+
 - Frontend/UI: Gradio
 - 메타데이터 추출기: gpt (APA 인용 생성 포함)
 - RAG embedder: 'jhgan/ko-sroberta-multitask'
