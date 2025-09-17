@@ -12,6 +12,7 @@ SKN 16기 3차 단위프로젝트
    - 논문 분석
    - 추출 DB 업데이트 및 관리
    - 논문 기반 AI 챗봇 기능
+ 
 ![afaf](./img/afaf.png)
 
 ## 수집된 데이터 및 데이터 전처리 문서
@@ -32,7 +33,9 @@ SKN 16기 3차 단위프로젝트
 
 ### 임베딩 모델 비교
 - 비교 모델 : jhgan/ko-sroberta-multitask, BAAI/bge-m3, intfloat/multilingual-e5-base, sentence-transformers/paraphrase-multilingual-MiniLM-L12-v2
+
 ![embed eval](./img/embed eval.jpg)
+
 ![embed vs](./img/embed vs.jpg)
 
 ## 개발된 소프트웨어 : RAG기반 LLM과 벡터 데이터베이스 연동 구현 및 화면
