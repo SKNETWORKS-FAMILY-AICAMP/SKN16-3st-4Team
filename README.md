@@ -38,7 +38,7 @@ SKN 16기 3차 단위프로젝트
 - 로깅/모니터링: LangSmith
 
 ### 임베딩 모델 비교
-- 비교 모델 : jhgan/ko-sroberta-multitask, BAAI/bge-m3, intfloat/multilingual-e5-base, sentence-transformers/paraphrase-multilingual-MiniLM-L12-v2
+- 비교 모델 : jhgan/ko-sroberta-multitask, BAAI/bge-m3, intfloat/multilingual-e5-base,intfloat/multilingual-e5-large, sentence-transformers/all-MiniLM-L6-v2, sentence-transformers/paraphrase-multilingual-MiniLM-L12-v2
 - 논문 관련 질문, 무관한 질문, 복합 질문(관련+무관) 에 대한 각 임베딩 모델별 답변 PASS/FAIL 비율 
 
 ![embedeval](./img/embedeval.jpg)
