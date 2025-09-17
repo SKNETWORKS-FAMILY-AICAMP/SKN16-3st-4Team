@@ -15,15 +15,18 @@ SKN 16기 3차 단위프로젝트
 ![afaf](./img/afaf.png)
 
 ## 수집된 데이터 및 데이터 전처리 문서
+### 수집 논문 범위
 - 한국지능정보연구원 학술논문 약 300건(2020~2025) (https://www.jiisonline.org/index.php?mnu=archive)
 - 논문 예시
+![paper](./img/paper.png)
 
+### 데이터 전처리 전략
+- PDF 처리기: PDFplumber, PyMuPDF, OCR
+- 전처리: okt, komoran, keybert
  
 ## 시스템 아키텍쳐
 ![archit](./img/archit.jpg)
 - Frontend/UI: Gradio
-- PDF 처리기: PDFplumber, PyMuPDF, OCR
-- 전처리: okt, komoran, keybert
 - 메타데이터 추출기: gpt (APA 인용 생성 포함)
 - RAG embedder: 'jhgan/ko-sroberta-multitask'
 - RAG reranker: 'cross-encoder/ms-marco-MiniLM-L-12-v2'
