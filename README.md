@@ -12,6 +12,7 @@ SKN 16기 3차 단위프로젝트
    - 논문 분석
    - 추출 DB 업데이트 및 관리
    - 논문 기반 AI 챗봇 기능
+![afaf](./img/afaf.png)
 
 ## 수집된 데이터 및 데이터 전처리 문서
  - https://www.jiisonline.org/index.php?mnu=archive
